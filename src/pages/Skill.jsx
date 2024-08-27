@@ -12,15 +12,14 @@ function Skill() {
             </div>
 
             <div className='text-white mb-10'>
-                <p className='text-xl font-semibold'>I like to take responsibility to craft aesthetic user</p>
-                <p className='text-xl font-semibold'>experience using modern frontend architecture.</p>
+                <p className='text-2xl font-semibold'>I like to take responsibility to craft aesthetic user</p>
+                <p className='text-2xl font-semibold'>experience using modern frontend architecture.</p>
             </div>
-
             <div>
                 <div className='my-10'>
                     <p className='text-white text-lg font-medium uppercase tracking-wide'>Languages and tools</p>
                 </div>
-                <div className='flex space-x-10 my-10'>
+                <div className='flex space-x-12 my-10'>
                     <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/html.svg" alt="logo"/>
                     <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/css.svg" alt="logo"/>
                     <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/php.svg" alt="logo"/>
@@ -35,20 +34,19 @@ function Skill() {
                 <div className='items-center my-10'>
                     <p className='text-white uppercase text-lg tracking-wide'>Libraries and frameworks</p>
                 </div>
-                <div className='flex space-x-10 my-10'>
+                <div className='flex space-x-12 my-10'>
                     <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/react.svg" alt="logo"/>
                     <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/nextjs.svg" alt="logo"/>
                     <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/tailwind.svg" alt="logo"/>
                     <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/bootstrap.svg" alt="logo"/>
                 </div>
             </div>
-            
             <div className='flex gap-24'>
                 <div>
                     <div className='items-center my-10'>
                         <p className='text-white uppercase text-lg tracking-wide'>Databases</p>
                     </div>
-                    <div className='flex space-x-10 my-10'>
+                    <div className='flex space-x-12 my-10'>
                         <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/mysql.svg" alt="logo"/>
                     </div>
                 </div>
@@ -56,13 +54,12 @@ function Skill() {
                     <div className='items-center my-10'>
                         <p className='text-white uppercase text-lg tracking-wide'>Other</p>
                     </div>
-                    <div className='flex space-x-10 my-10'>
+                    <div className='flex space-x-12 my-10'>
                         <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/github.svg" alt="logo"/>
                     </div>
                 </div>
             </div>
         </div>
-        
     </div>
   )
 }

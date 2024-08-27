@@ -11,10 +11,10 @@ function Navbar(){
                 <div className='items-center'>
                     <ul className="flex space-x-5 items-center text-white font-medium">
                         <li><a href="/" className="hover:text-purple-500">Home</a></li>
-                        <li><a href="/skill" className="hover:text-purple-500">Skills</a></li>
-                        <li><a href="/project" className="hover:text-purple-500">Project</a></li>
-                        <li><a href="/work" className="hover:text-purple-500">Work</a></li>
-                        <li><a href="/contact" className="hover:text-purple-500">Contact</a></li>
+                        <li><a href="#skill" className="hover:text-purple-500">Skills</a></li>
+                        <li><a href="#project" className="hover:text-purple-500">Project</a></li>
+                        <li><a href="#work" className="hover:text-purple-500">Work</a></li>
+                        <li><a href="#contact" className="hover:text-purple-500">Contact</a></li>
                     </ul>
                 </div>
             </div>
