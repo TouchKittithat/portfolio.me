@@ -15,32 +15,52 @@ function Skill() {
                 <p className='text-xl font-semibold'>I like to take responsibility to craft aesthetic user</p>
                 <p className='text-xl font-semibold'>experience using modern frontend architecture.</p>
             </div>
-            
-            <div className='my-10'>
-                <p className='text-white text-lg font-medium uppercase tracking-wide'>Languages and tools</p>
-            </div>
-            <div className='flex space-x-10 my-10'>
-                <img className="w-[50px] h-[50px]" src="/public/html.svg" alt="logo"/>
-                <img className="w-[50px] h-[50px]" src="/public/css.svg" alt="logo"/>
-                <img className="w-[50px] h-[50px]" src="/public/php.svg" alt="logo"/>
-                <img className="w-[50px] h-[50px]" src="/public/javascipt.svg" alt="logo"/>
-                <img className="w-[50px] h-[50px] bg-white p-1 rounded-lg" src="/public/nodejs.svg" alt="logo"/>
-                <img className="w-[50px] h-[50px]" src="/public/vite.svg" alt="logo"/>
-                <img className="w-[50px] h-[50px]" src="/public/figma.svg" alt="logo"/>
-            </div>
 
             <div>
-                <p className='text-white uppercase text-lg tracking-wide'>Libraries and frameworks</p>
+                <div className='my-10'>
+                    <p className='text-white text-lg font-medium uppercase tracking-wide'>Languages and tools</p>
+                </div>
+                <div className='flex space-x-10 my-10'>
+                    <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/html.svg" alt="logo"/>
+                    <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/css.svg" alt="logo"/>
+                    <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/php.svg" alt="logo"/>
+                    <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/javascipt.svg" alt="logo"/>
+                    <img className="w-[50px] h-[50px] bg-white p-1 rounded-lg hover:w-[60px] hover:h-[60px]" src="/public/nodejs.svg" alt="logo"/>
+                    <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/vite.svg" alt="logo"/>
+                    <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/postman.svg" alt="logo"/>
+                    <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/figma.svg" alt="logo"/>
+                </div>
             </div>
-            <div className='flex space-x-10 my-10'>
-                <img className="w-[50px] h-[50px]" src="/public/react.svg" alt="logo"/>
-                <img className="w-[50px] h-[50px]" src="/public/nextjs.svg" alt="logo"/>
-                <img className="w-[50px] h-[50px]" src="/public/tailwind.svg" alt="logo"/>
-                <img className="w-[50px] h-[50px]" src="/public/bootstrap.svg" alt="logo"/>
+            <div>
+                <div className='items-center my-10'>
+                    <p className='text-white uppercase text-lg tracking-wide'>Libraries and frameworks</p>
+                </div>
+                <div className='flex space-x-10 my-10'>
+                    <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/react.svg" alt="logo"/>
+                    <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/nextjs.svg" alt="logo"/>
+                    <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/tailwind.svg" alt="logo"/>
+                    <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/bootstrap.svg" alt="logo"/>
+                </div>
             </div>
             
-            <p>DATABASES</p>
-            <img className="w-[24px] h-[24px]" src="/public/vite.svg" alt="logo"/>
+            <div className='flex gap-24'>
+                <div>
+                    <div className='items-center my-10'>
+                        <p className='text-white uppercase text-lg tracking-wide'>Databases</p>
+                    </div>
+                    <div className='flex space-x-10 my-10'>
+                        <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/mysql.svg" alt="logo"/>
+                    </div>
+                </div>
+                <div>
+                    <div className='items-center my-10'>
+                        <p className='text-white uppercase text-lg tracking-wide'>Other</p>
+                    </div>
+                    <div className='flex space-x-10 my-10'>
+                        <img className="w-[50px] h-[50px] hover:w-[60px] hover:h-[60px]" src="/public/github.svg" alt="logo"/>
+                    </div>
+                </div>
+            </div>
         </div>
         
     </div>

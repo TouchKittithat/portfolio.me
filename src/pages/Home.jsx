@@ -13,7 +13,7 @@ function Home() {
                     <p className='text-white font-medium text-6xl'>Kittithat Chubuathong</p>
                 </div>
                 <div className='my-6'>
-                    <p className='text-slate-300 font-medium text-2xl my-2 hover:text-sky-500 hover:cursor-pointer'>I build things for the web,</p>
+                    <p className='text-slate-300 font-medium text-2xl my-2 hover:text-sky-400 hover:cursor-pointer'>I build things for the web,</p>
                     <p className='text-slate-300 font-medium text-2xl my-2 hover:text-blue-500 hover:cursor-pointer'>I create aesthetic and modern apps,</p>
                     <p className='text-slate-300 font-medium text-2xl my-2 hover:text-purple-600 hover:cursor-pointer'>A pragmatic Frontend Developer</p>
                 </div>
