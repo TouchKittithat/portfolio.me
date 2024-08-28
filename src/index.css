@@ -5,3 +5,32 @@
 body {
     background-color: #333;
 }
+
+@layer components {
+    .btn-hover-animation {
+      @apply relative inline-block font-semibold p-3 border-2 border-blue-700 text-white rounded-md overflow-hidden;
+      transition: color 0.4s ease-in-out;
+    }
+  
+    .btn-hover-animation::before {
+      @apply absolute top-0 left-0 w-full h-full bg-blue-700;
+      content: '';
+      z-index: 0;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.4s ease-in-out;
+    }
+  
+    .btn-hover-animation:hover::before {
+      transform: scaleX(1);
+    }
+  
+    .btn-hover-animation:hover {
+      color: #ffffff;
+    }
+  
+    .btn-hover-animation span {
+      position: relative;
+      z-index: 1;
+    }
+  }

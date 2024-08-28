@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar(){
     return (
-        <div className="items-center bg-[#333]/60 p-4 sticky top-0 drop-shadow-md backdrop-blur-sm">
+        <div className="items-center bg-[#333]/60 p-4 sticky top-0 drop-shadow-md backdrop-blur-sm z-10">
             <div className="flex justify-around">
                 <div className="text-white flex gap-1 items-center">
                     <img className="w-[24px] h-[24px]" src="/public/vite.svg" alt="logo"/>
