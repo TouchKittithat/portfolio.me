@@ -16,15 +16,15 @@ function Project() {
             </div>
 
 
-            <div className='grid grid-cols-3 gap-12'>
-                <div className='bg-red-500'>
-                    <p>Advisor System</p>
+            <div className='grid md:grid-cols-1 gap-12 lg:grid-cols-3'>
+                <div className='bg-purple-600 rounded-md w-auto h-[20rem]'>
+                    <p className='text-white text-center font-medium text-xl'>Advisor System</p>
                 </div>
-                <div className='bg-blue-500'>
-                    <p>Restuarant Web</p>
+                <div className='bg-blue-500 rounded-md w-auto h-[20rem]'>
+                    <p className='text-white text-center font-medium text-xl'>Restuarant Web</p>
                 </div>
-                <div className='bg-green-500'>
-                    <p>Ecommerce Web</p>
+                <div className='bg-sky-400 rounded-md w-auto h-[20rem]'>
+                    <p className='text-white text-center font-medium text-xl'>Ecommerce Web</p>
                 </div>
 
             </div>

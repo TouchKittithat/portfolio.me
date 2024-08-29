@@ -20,12 +20,12 @@ function Home() {
                     <p className='text-slate-300 font-medium text-2xl my-2 hover:text-purple-600 hover:cursor-pointer'>A pragmatic Frontend Developer</p>
                 </div>
                 <div className='my-16 flex gap-10 items-center'>
-                    <a href='/' className='bg-purple-600 p-3 text-white rounded-md hover:bg-purple-700 font-bold'>Let's Talk</a>
+                    <a href='#contact' className='bg-purple-600 p-3 text-white rounded-md hover:bg-purple-700 font-bold'>Let's Talk</a>
                     <a href='/' className='btn-hover-animation'><span>Just click it</span></a>
                 </div>
             </div>
-            <div>
-                <img src={Lottie} alt="profile" className='w-[35rem] h-[35rem]'/>
+            <div className=''>
+                <img src={Lottie} alt="profile" className='w-[36rem] h-[36rem]'/>
             </div>
         </div>
     </div>
